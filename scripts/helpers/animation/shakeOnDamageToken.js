@@ -61,13 +61,10 @@ async function shakeWithSequencer(token, shakeDistancePercent, shakes, duration,
     const tokenImage = getTokenImage(token);
 
     await new Sequence()
-        .animation()
-        .on(token)
-        .delay(duration / 10)
         .effect()
         .atLocation(token)
         .spriteRotation(token.document.texture.rotation)
-        .file(tokenImage)
+        .copySprite(token)
         .scaleToObject()
         .scale({ x: token.document.texture.scaleX, y: token.document.texture.scaleY })
         .loopProperty("spriteContainer", "position.x", {
