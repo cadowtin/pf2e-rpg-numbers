@@ -428,8 +428,8 @@
                     "hint": "Po włączeniu, jeśli aktor tokena ma szybkość przekopywania i wyłania się z ziemi lub wchodzi na nią (wysokość 0), tworzy animację wybuchu/przekopywania. (Wymaga JB2a Premium do działania)"
                 },
                 "duration": {
-                    "name": "Ustaw czas trwania otworu",
-                    "hint": "Ustaw czas trwania animacji otworu (w sekundach)."
+                    "name": "Czas trwania otworu",
+                    "hint": "Jak długo utrzymuje się animacja otworu (w sekundach)"
                 },
                 "persistent": {
                     "name": "Utwórz trwały otwór",
@@ -440,7 +440,7 @@
                     "hint": "Mnożnik rozmiaru animacji (domyślnie 1)"
                 },
                 "ignore-speed": {
-                    "name": "Odtwarzaj nawet bez szybkości przekopywania",
+                    "name": "Ignoruj szybkość przekopywania",
                     "hint": "Odtwórz animację, gdy token zakopuje się, nawet jeśli nie ma szybkości przekopywania."
                 }
             },
